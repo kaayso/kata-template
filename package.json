@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint src/**.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jest": "^26.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
   }
 }
